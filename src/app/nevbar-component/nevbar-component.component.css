@@ -1,7 +1,30 @@
 .topnav {
-    overflow: hidden;
     width: 100%;
-    height: 200px;
-    background-color: rgb(223, 98, 14);
-    text-align: center;
+    height: 400px;
+    background-color: rgb(196, 82, 148);
+}
+
+.center {
+    margin: 0 10% 0 10%;
+}
+
+.btn {
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 12px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
 }
