@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.topbanner1 {
+    margin-top: 10px;
+    text-align: center;
+    width: 80%;
+    height: 150px;
+    border: 5px solid #ccc;
+    border-color: yellowgreen;
+    background-color: rgb(255, 255, 255);
+}
+
+.container-row {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.topbanner2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 95%;
+    height: 70px;
+    border: 5px solid #ccc;
+    border-color: yellowgreen;
+    background-color: rgb(255, 255, 255);
+}
+
+.topbanner3 {
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 95%;
+    height: 70px;
+    border: 5px solid #ccc;
+    border-color: yellowgreen;
+    background-color: rgb(255, 255, 255);
+}
