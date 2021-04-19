@@ -12,10 +12,15 @@ export class ToDoListComponentComponent {
 
   items =["Coffee","Breakfast"];
   
-  
   addItem(title){
     this.items.push(title);
   }
+  deleteMsg(number:number) {
+    console.log("มานะ");
+    console.log(number);
+    delete this.items[number]    
+       
+}
   constructor() { }
 
 
