@@ -11,6 +11,7 @@ import { NevbarComponentComponent } from './nevbar-component/nevbar-component.co
 import { SearchBarComponentComponent } from './search-bar-component/search-bar-component.component';
 import { TopBannerComponentComponent } from './top-banner-component/top-banner-component.component';
 import { CatagoryMenuComponentComponent } from './catagory-menu-component/catagory-menu-component.component';
+import { ToDoListComponentComponent } from './to-do-list-component/to-do-list-component.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CatagoryMenuComponentComponent } from './catagory-menu-component/catago
     NevbarComponentComponent,
     SearchBarComponentComponent,
     TopBannerComponentComponent,
-    CatagoryMenuComponentComponent
+    CatagoryMenuComponentComponent,
+    ToDoListComponentComponent
   ],
   imports: [
     BrowserModule,
