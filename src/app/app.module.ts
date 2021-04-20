@@ -12,6 +12,7 @@ import { SearchBarComponentComponent } from './search-bar-component/search-bar-c
 import { TopBannerComponentComponent } from './top-banner-component/top-banner-component.component';
 import { CatagoryMenuComponentComponent } from './catagory-menu-component/catagory-menu-component.component';
 import { ToDoListComponentComponent } from './to-do-list-component/to-do-list-component.component';
+import { Home2Component } from './home2/home2.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ToDoListComponentComponent } from './to-do-list-component/to-do-list-co
     SearchBarComponentComponent,
     TopBannerComponentComponent,
     CatagoryMenuComponentComponent,
-    ToDoListComponentComponent
+    ToDoListComponentComponent,
+    Home2Component
   ],
   imports: [
     BrowserModule,
